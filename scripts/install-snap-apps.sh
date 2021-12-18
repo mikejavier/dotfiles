@@ -4,11 +4,6 @@ sudo apt install snapd
 
 PKGS=(
   authy
-  postman
-  slack
-  spotify
-  discord
-  dbeaver-ce
 )
 
 for pkg in "${PKGS[@]}"; do

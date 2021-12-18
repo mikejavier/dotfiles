@@ -2,7 +2,7 @@
 
 ./scripts/install-apps.sh
 ./scripts/install-symlink.sh
-./scripts/install-configs.sh
+#./scripts/install-configs.sh
 
 # Get all upgrades
 sudo apt upgrade -y
