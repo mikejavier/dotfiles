@@ -38,6 +38,10 @@ wget -c https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.
 wget -c https://zoom.us/client/latest/zoom_amd64.deb -O zoom.deb
 wget -c https://discord.com/api/download?platform=linux&format=deb -O discord.deb
 
+# yt-dlp
+wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+chmod a+rx /usr/local/bin/yt-dlp
+
 function install {
   which $1 &> /dev/null
 
@@ -66,6 +70,7 @@ install htop
 # Applications
 install brave-browser
 install cheese
+install flameshot
 install baobab
 install gparted
 install libreoffice-gnome libreoffice
