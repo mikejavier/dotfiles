@@ -73,7 +73,6 @@ install cheese
 install flameshot
 install baobab
 install gparted
-install libreoffice-gnome libreoffice
 install simplescreenrecorder
 install vlc
 install ulauncher
